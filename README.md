@@ -1,4 +1,4 @@
-# Starting point
+# shuja-ublue
 
 [![build-ublue](https://github.com/shuja-u/shuja-ublue/actions/workflows/build.yml/badge.svg)](https://github.com/shuja-u/shuja-ublue/actions/workflows/build.yml)
 
