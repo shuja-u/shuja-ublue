@@ -59,7 +59,7 @@ rpm:
     # Example:
     # - tilix
     - input-remapper
-    - gnome-shell-extension-pop-shell
+    # - gnome-shell-extension-pop-shell
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
@@ -67,6 +67,7 @@ rpm:
     # - firefox
     # - firefox-langpacks
     - libratbag-ratbagd
+    - gnome-extensions-app
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
   # Whether to embed "yafti" into the OS image and configure it to autostart,
