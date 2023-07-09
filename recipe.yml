@@ -90,3 +90,4 @@ firstboot:
     - io.github.trigg.discover_overlay
     - org.keepassxc.KeePassXC
     - org.cryptomator.Cryptomator
+    - io.github.alainm23.planify
