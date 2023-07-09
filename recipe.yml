@@ -59,7 +59,7 @@ rpm:
     # Example:
     # - tilix
     - input-remapper
-    # - gnome-shell-extension-pop-shell
+    - speech-dispatcher-utils
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
   remove:
@@ -73,7 +73,7 @@ firstboot:
   # Whether to embed "yafti" into the OS image and configure it to autostart,
   # which is the preferred uBlue "first boot" GUI. Set this to "false" if you've
   # decided to use a different solution instead.
-  yafti: false
+  yafti: true
   # These Flatpaks will be suggested for install after user login, via the yafti
   # "first boot" GUI. Everything below will be merged into the "yafti.yml" config
   # on build, in a category named "Custom". If you prefer, you can instead remove
@@ -81,6 +81,12 @@ firstboot:
   # Alternatively, if you've disabled "yafti", you can still install these via
   # the "just setup-flatpaks" command from our "custom.just" template file.
   # This is just an example selection:
-  # flatpaks:
-  #   - io.github.celluloid_player.Celluloid
-  #   - org.kde.krita
+  flatpaks:
+    - io.github.celluloid_player.Celluloid
+    - org.kde.krita
+    - com.brave.Browser
+    - com.discordapp.Discord
+    - com.github.Matoking.protontricks
+    - io.github.trigg.discover_overlay
+    - org.keepassxc.KeePassXC
+    - org.cryptomator.Cryptomator
