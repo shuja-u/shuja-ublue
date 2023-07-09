@@ -67,7 +67,7 @@ rpm:
     # - firefox
     # - firefox-langpacks
     - libratbag-ratbagd
-    - gnome-extensions-app
+    # - gnome-extensions-app
 # Configuration for the "first boot" experience, which is available after login.
 firstboot:
   # Whether to embed "yafti" into the OS image and configure it to autostart,
