@@ -59,7 +59,7 @@ rpm:
     # Example:
     # - tilix
     - input-remapper
-    - speech-dispatcher-utils
+    # - speech-dispatcher-utils
     # - gnome-shell-extension-pop-shell
     - virt-install
     - libvirt-daemon-config-network
